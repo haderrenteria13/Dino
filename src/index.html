@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <!--Fin Meta Tags-->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Fin Meta Tags-->
+        <!--Descripcion-->
+        <title>Hader Renteria 🧑🏿‍💻 | Dino</title>
+        <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+        <!--Fin Descripcion-->
+        <!--Links CSS-->
+        <link rel="stylesheet" href="../assets/styles/styles.css">
+        <!--Fin Links CSS-->
+        <!--Links Bootstrap CSS-->
+        <link rel="stylesheet" href="../assets/libs/node_modules/bootstrap/dist/css/bootstrap.css">
+        <!--Fin Links Bootstrap CSS-->
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+        <!--Fin Google Fonts-->
+</head>
+<body class="body-404">
+    <!--Loader-->
+    <div class="carga">
+        <div class="center">
+            <img src="../assets/images/logo.png" alt="">
+        </div>
+    </div>
+    <!--Fin Loader-->
+
+    <div class="contenedor">
+
+        <div class="suelo"></div>
+        
+        <div class="dino dino-corriendo"></div>
+
+        <div class="score">0</div>
+
+    </div>
+
+    <div class="game-over">Perdiste!</div>
+
+    <!--JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="../assets/scrips/main.js"></script>
+    <!--Fin JavaScript-->
+
+    <!--Logica Loader-->
+    <script type="text/javascript">
+        $(window).load(function () {
+          $(".carga").fadeOut("slow");
+        });
+    </script>
+    <!--Fin Logica Loader-->
+</body>
+</html>
